@@ -1,0 +1,54 @@
+<h1>Hero <small>Hero Name</small></h1>
+<hr>
+<div class="row text-right">
+    <div class="col">
+        <button class="btn btn-danger" routerLink="heroes">
+        <i class="fa fa-arrow-left"></i>
+        Back
+    </button>
+    </div>
+</div>
+
+<div class="row animated fadeIn faster">
+    <div class="col">
+        <form>
+
+            <div class="form-group">
+                <label>Firebase ID</label>
+                <input type="text" class="form-control" disabled="disabled" placeholder="Firebase ID">
+            </div>
+            <div class="form-group">
+                <label>Hero Name</label>
+                <input type="text" class="form-control" placeholder="Hero's Name" required>
+            </div>
+            <div class="form-group">
+                <label>Power</label>
+                <input type="text" class="form-control" placeholder="Hero's Power" required>
+            </div>
+            <div class="form-group">
+                <label>Status</label>
+                <br>
+                <button class="btn btn-outline-success" type="button">
+                    <i class="fa fa-smile-wink"></i>
+                    Lives
+
+                </button>
+                <button class="btn btn-outline-danger" type="button">
+                    <i class="fa fa-dizzy"></i>
+                    Lives
+
+                </button>
+            </div>
+            <hr>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary w-25">
+                    <i class="fa fa-save"></i>
+
+                </button>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
